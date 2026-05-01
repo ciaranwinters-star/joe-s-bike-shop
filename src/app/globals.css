@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --primary: #1A3A5C;
+  --accent: #E87722;
+  --bg: #FFFFFF;
+}
+html { scroll-behavior: smooth; }
+body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); }

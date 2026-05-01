@@ -31,11 +31,11 @@ export default function Contact() {
   }
   return (
     <div className="max-w-5xl mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-4" style={{ color: "#1A3A5C" }}>Contact Us</h1>
+      <h1 className="text-4xl font-bold mb-4" style={{ color: "#1A3A5C" }}>Get In Touch</h1>
       <p className="text-gray-600 text-lg mb-12">Based on Lower Main Street in Arklow. Call Joe anytime to book a repair, ask a question, or just have a chat about bikes.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
-          <h2 className="text-xl font-bold mb-6" style={{ color: "#1A3A5C" }}>Get in Touch</h2>
+          <h2 className="text-xl font-bold mb-6" style={{ color: "#1A3A5C" }}>Contact Details</h2>
           <div className="flex flex-col gap-4 text-gray-700">
             <div className="flex items-center gap-3">
               <span className="text-2xl">📞</span>
@@ -44,7 +44,7 @@ export default function Contact() {
             <div className='flex items-center gap-3'><span className='text-2xl'>✉️</span><a href='mailto:joesbikeshoparklow@gmail.com' className='hover:underline' style={{color: '#E87722'}}>joesbikeshoparklow@gmail.com</a></div>
             <div className="flex items-start gap-3">
               <span className="text-2xl">📍</span>
-              <span>Arklow, Co. Wicklow</span>
+              <span>87 Lower Main St, Arklow, Co. Wicklow</span>
             </div>
           </div>
         </div>
